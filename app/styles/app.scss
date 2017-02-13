@@ -1,4 +1,7 @@
-@import "_bootstrap.scss";
-body {
-  background-color: rgba(218, 224, 223, 0.42);
-}
+@import "bootstrap";
+
+@import "global";
+
+/* Page specfic styles */
+@import "landing";
+
