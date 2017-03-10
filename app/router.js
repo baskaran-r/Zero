@@ -7,6 +7,12 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('login');
+  this.route('auth', { path: '/'}, function() {
+    this.route('dashboard', { path: '/', resetNamespace: true });
+    this.route('projects', { resetNamespace: true });
+  });
+  this.route('not-found', { path: "*path"});
 });
 
 export default Router;

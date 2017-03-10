@@ -1,4 +1,22 @@
 @import "_bootstrap.scss";
 body {
-  background-color: rgba(218, 224, 223, 0.42);
+  background-color: #fbf7f0;
+  padding-top: 70px;
 }
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #FFF;
+    font-weight: bold;
+    background-color: rgb(7, 170, 80);
+}
+.navbar-default .navbar-nav > li > a {
+    color: #FFF;
+}
+.navbar-default .navbar-brand {
+    color: #FFF;
+}
+.navbar-default {
+    background-color: #3cb371;
+}
+@import "layout/_login.scss";
+@import "layout/_projects.scss";
