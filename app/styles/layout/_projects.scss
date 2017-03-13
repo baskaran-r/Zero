@@ -1,0 +1,72 @@
+.project-box {
+  background-color: #FFF;
+  margin: 10px 5px;
+  padding: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  min-height: 175px;
+  &.col-md-3 {
+    width: 24%;
+  }
+  .project-name {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  .project-description {
+    min-height: 97px;
+  }
+  .project-lead {
+    font-size: 0.9em;
+  }
+}
+
+.project-block {
+  .list-header {
+    background-color: rgba(169, 167, 167, 0.15);
+    border: 1px solid #e1e4e8;
+    margin-top: 20px;
+    padding: 7px 0;
+    border-radius: 3px 3px 0 0;
+    a, .btn-link {
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+  .list-content {
+    border: 1px solid #e1e4e8;
+    border-top: none;
+  }
+  .issue-count {
+    margin-top: 7px;
+    padding-left: 10px;
+    a {
+      color: #333;
+      &:last-child {
+        margin-left: 10px;
+        font-size: 11px;
+        color: #666;
+      }
+    }
+    .fa {
+      margin-right: 3px;
+    }
+  }
+  .filters .dropdown {
+    float: right;
+    .btn {
+      color: #444;
+    }
+  }
+  .issue-list {
+    background-color: #FFF;
+    li {
+      border-bottom: 1px solid #e1e4e8;
+      padding: 8px 10px;
+      &:last-child {
+        border: none;
+      }
+    }
+  }
+}
+
+

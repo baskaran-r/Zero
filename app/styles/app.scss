@@ -1,7 +1,7 @@
-@import "bootstrap";
+@import "_bootstrap-variables";
+@import "_bootstrap";
 
 @import "global";
 
-/* Page specfic styles */
-@import "landing";
-
+@import "layout/login";
+@import "layout/projects";
