@@ -47,8 +47,8 @@
         color: #666;
       }
     }
-    .fa {
-      margin-right: 3px;
+    .icon-img {
+      margin-right: 2px;
     }
   }
   .filters .dropdown {
@@ -66,6 +66,19 @@
         border: none;
       }
     }
+  }
+  .issue-meta {
+    font-size: 0.82em;
+    color: #777;
+    padding-left: 36px;
+  }
+  .issue-name {
+    font-size: 1.1em;
+    color: #333;
+  }
+  .comment-count {
+    padding-top: 6px;
+    display: inline-block;
   }
 }
 

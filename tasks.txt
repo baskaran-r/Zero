@@ -1,0 +1,34 @@
+Zero
+========
+
+Projects
+  Add Project
+  Add user to project
+  Settings
+  Project
+    Tasks
+      Task
+    Issues
+      Issue
+
+Project, Task -- Common
+  Labels
+  Author
+  Attachments
+  Create, View, Edit
+
+Search
+History
+Reports
+  Chart
+  Print
+  Mail
+
+Notifications
+
+Users
+  Profile
+  Change Password
+  Notification Preference
+  Permissions
+  Add user
