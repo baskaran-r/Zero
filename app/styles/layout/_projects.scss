@@ -67,10 +67,16 @@
       }
     }
   }
+  .issue-icon {
+    color: #3cb371;
+  }
   .issue-meta {
     font-size: 0.82em;
     color: #777;
     padding-left: 36px;
+    a {
+      color: #777;
+    }
   }
   .issue-name {
     font-size: 1.1em;
@@ -79,6 +85,13 @@
   .comment-count {
     padding-top: 6px;
     display: inline-block;
+    color: #555;
+    span {
+      display: inline-block;
+      font-size: 0.95em;
+      margin-top: -1px;
+      vertical-align: top;
+    }
   }
 }
 
