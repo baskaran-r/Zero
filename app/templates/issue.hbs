@@ -3,6 +3,8 @@
     <div class="col-md-10 no-padding">
       <h1 class="page-title">Browser compatibility</h1>
       <div class="issue-meta">
+        <span>#123</span>
+        <span class="label label-success">Open</span>
         <span><a href="#">John doe</a> opened this issue 7 days ago</span>
         <span>23 Comments</span>
       </div>
@@ -16,16 +18,67 @@
       <div class="issue-description">
         <p>Description goes here</p>
       </div>
+      <section class="comments">
+        <article class="comment">
+          <a class="comment-img" href="#non">
+            <img src="https://randomuser.me/api/portraits/men/11.jpg" alt="" width="50" height="50">
+          </a>
+          <div class="comment-body">
+            <div class="text">
+              <p>Hello, this is an example comment</p>
+            </div>
+            <p class="attribution">by <a href="#non">Joe Bloggs</a> at 14:23pm, 4th Dec 2010</p>
+          </div>
+        </article>
+        <article class="comment">
+          <a class="comment-img" href="#non">
+            <img src="https://randomuser.me/api/portraits/men/12.jpg" alt="" width="50" height="50">
+          </a>
+          <div class="comment-body">
+            <div class="text">
+              <p>This is a much longer one that will go on for a few lines.</p>
+              <p>It has multiple paragraphs and is full of waffle to pad out the comment. Usually, you just wish these sorts of comments would come to an end.</p>
+            </div>
+            <p class="attribution">by <a href="#non">Joe Bloggs</a> at 14:23pm, 4th Dec 2010</p>
+          </div>
+        </article>
+        <article class="comment">
+          <a class="comment-img" href="#non">
+            <img src="https://randomuser.me/api/portraits/men/77.jpg" alt="" width="50" height="50">
+          </a>
+          <div class="comment-body">
+            <div class="text clearfix">
+              <form class="clearfix">
+                <div class="form-group">
+                  <textarea class="form-control"></textarea>
+                </div>
+                <button type="submit" class="btn btn-success pull-right">Comment</button>
+              </form>
+            </div>
+          </div>
+        </article>
+      </section>
     </div>
     <div class="col-md-3 no-right-padding">
       <ul class="reset-list meta-list">
         <li>
-          Assigned
+          <div class="meta-list-header">Assigned</div>
+          <div>No one assigned. <a href="#">assign</a></div>
         </li>
-        <li>
-          Labels
-          <div class="label label-success">Enhancement</div>
-          <div class="label label-warning">Urgent</div>
+        <li class="clearfix">
+          <div class="meta-list-header">Label <span class="octicon octicon-plus pull-right"></span></div>
+          <div class="label label-success meta-label">Enhancement</div>
+          <div class="label label-warning meta-label">Urgent</div>
+          <div class="label label-danger meta-label">Bug</div>
+          <div class="label label-primary meta-label">Urgent</div>
+          <div class="label label-default meta-label">Need document</div>
+        </li>
+        <li class="clearfix">
+          <div class="meta-list-header">Participant</div>
+          <a href="#" class="issue-participant-img"><img src="https://randomuser.me/api/portraits/men/11.jpg" alt="" width="50" height="50"></a>
+          <a href="#" class="issue-participant-img"><img src="https://randomuser.me/api/portraits/men/15.jpg" alt="" width="50" height="50"></a>
+          <a href="#" class="issue-participant-img"><img src="https://randomuser.me/api/portraits/men/18.jpg" alt="" width="50" height="50"></a>
+          <a href="#" class="issue-participant-img"><img src="https://randomuser.me/api/portraits/men/17.jpg" alt="" width="50" height="50"></a>
         </li>
       </ul>
     </div>
