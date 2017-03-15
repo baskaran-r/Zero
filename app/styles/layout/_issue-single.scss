@@ -1,0 +1,23 @@
+.issue-block {
+  .issue-header {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+  .issue-description {
+    background-color: #FFF;
+    padding: 10px;
+    border-radius: 3px;
+    min-height: 100px;
+  }
+  .meta-list {
+    li {
+      border-bottom: 1px solid #ddd;
+      padding: 10px 0;
+
+      &:first-child {
+        padding-top: 0;
+      }
+    }
+  }
+}

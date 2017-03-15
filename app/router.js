@@ -16,7 +16,10 @@ Router.map(function() {
         resetNamespace: true,
         path: '/:projectId'
       });
-
+      this.route('issue', {
+        resetNamespace: true,
+        path: '/:issueId'
+      });
     });
   });
   this.route('not-found', { path: "*path"});
