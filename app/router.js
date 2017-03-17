@@ -21,8 +21,8 @@ Router.map(function() {
           resetNamespace: true,
           path: '/issue/:issueId'
         });
+        this.route('announcements');
       });
-
     });
   });
   this.route('not-found', { path: "*path"});
