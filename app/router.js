@@ -15,11 +15,14 @@ Router.map(function() {
       this.route('project', {
         resetNamespace: true,
         path: '/:projectId'
+      }, function() {
+        this.route('home', { path: '/' });
+        this.route('issue', {
+          resetNamespace: true,
+          path: '/issue/:issueId'
+        });
       });
-      this.route('issue', {
-        resetNamespace: true,
-        path: '/:issueId'
-      });
+
     });
   });
   this.route('not-found', { path: "*path"});
