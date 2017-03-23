@@ -17,11 +17,15 @@ Router.map(function() {
         path: '/:projectId'
       }, function() {
         this.route('home', { path: '/' });
-        this.route('issue', {
-          resetNamespace: true,
-          path: '/issue/:issueId'
-        });
+
         this.route('announcements');
+
+        this.route('issues', () => {
+          this.route('issue', {
+            resetNamespace: true,
+            path: '/issue/:issueId'
+          });
+        });
       });
     });
   });
