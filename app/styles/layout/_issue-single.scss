@@ -45,21 +45,21 @@
   }
 
   .issue-meta-list {
-      li {
-        display: inline-block;
-        margin-right: 5px;
-        &:before{
-          content:'\00B7';
-          padding-left: 2px;
-          padding-right:7px;
-        }
-        &:first-child:before {
-          content: '';
-          padding-right: 0;
-          padding-left: 0;
-        }
+    li {
+      display: inline-block;
+      margin-right: 5px;
+      &:before{
+        content:'\00B7';
+        padding-left: 2px;
+        padding-right:7px;
+      }
+      &:first-child:before {
+        content: '';
+        padding-right: 0;
+        padding-left: 0;
       }
     }
+  }
 
   .comments {
     margin-top: 20px;
