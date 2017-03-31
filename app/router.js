@@ -18,7 +18,12 @@ Router.map(function() {
       }, function() {
         this.route('home', { path: '/' });
 
-        this.route('announcements');
+        this.route('announcements', function() {
+          this.route('announcement', {
+            resetNamespace: true,
+            path: '/:announcementId'
+          });
+        });
 
         this.route('issues', () => {
           this.route('issue', {
